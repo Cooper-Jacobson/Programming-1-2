@@ -20,7 +20,5 @@ def main():
     move()
     turn_left()
     pass
-
-
-if __name__ == "__main__":
-    run_karel_program()
+  if __name__ == "__main__":
+run_karel_program()
