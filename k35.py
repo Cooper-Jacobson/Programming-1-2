@@ -74,15 +74,61 @@ class ktools:
     self.put5()
     self.tr()
     self.put2()
+    self.tl()
+    self.m()
+    self.m()
+    self.tr()
+    self.m()
+    self.m()
+    self.tr()
+    self.put2()
+    self.tl()
+    self.m()
+    self.m()
+    self.tr()
+    self.m()
+    self.m()
+    self.tr()
+    self.put2()
+    self.m()
+    self.m()
+
+  def l(self):
+    """Print L using beepers"""
+    self.tl()
+    self.put5()
+    self.tr()
+    self.m()
+    self.m()
+    self.m()
+    self.m()
+    self.tr()
+    self.put2()
+    self.m()
+    self.m() 
+
+  def o(self):
+    """Print O using beepers"""
+    self.tl()
+    self.put5()
+    self.tr()
+    self.tr()
+    self.put2()
+    self.m()
+    self.tr()
+    self.put5()
+    self.tl()
+    self.put2()
     
-
-
-def main():
+  def main():
     """ Karel code goes here! """
     kt = ktools()
     kt.h()
+    kt.e()
+    kt.l()
+    kt.l()
+    kt.o()
     pass
 
-
-if __name__ == "__main__":
-    run_karel_program()
+  if __name__ == "__main__":
+  run_karel_program()

@@ -3,6 +3,8 @@ from stanfordkarel import *
 
 def main():
     """ Karel code goes here! """
+    turn_left()
+    move()
     
     pass
 
