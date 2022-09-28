@@ -127,13 +127,7 @@ def putm(self, num):
 
 def main():
   """ Karel code goes here! """
-  kt = ktools()
-  kt.tl()
-  kt.mm(5)
-  kt.ta()
-  kt.putm(5)
-  kt.tl()
-  kt.mm(2)
+
   pass
 
 

@@ -127,22 +127,13 @@ def putm(self, num):
 
 def main():
   """ Karel code goes here! """
-  self.m()
-  self.pick()
-  self.m()
-  self.tl()
-  self.pickm(3)
-  self.ta()
-  self.mm(2)
+  self.putm(8)
   self.tr()
-  self.mm(2)
+  self.putm(8)
   self.tl()
-  self.pickm(2)
-  self.ta()
-  self.m()
-  self.tr()
-  self.mm(3)
-  self.pick()
+  self.putm(8)
+  self.tl()
+  self.putm(7)
   pass
 
 
