@@ -161,9 +161,8 @@ def find(self):
 def main():
   """ Karel code goes here! """
   kt = ktools()
-  while self.fic()
-    kt.tl()
-    kt.mm(3)
+  while self.fic():
+    kt.jump()
   while self.SOB
     self.pick()
   pass

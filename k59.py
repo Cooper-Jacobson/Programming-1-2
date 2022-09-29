@@ -162,10 +162,11 @@ def main():
   """ Karel code goes here! """
   kt = ktools()
   while self.fic()
-    kt.tl()
-    kt.mm(3)
-  while self.SOB
-    self.pick()
+    self.tr()
+    self.putm(2)
+    self.tr()
+    self.putm(7)
+    self.tl()
   pass
 
 
