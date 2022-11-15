@@ -1,7 +1,7 @@
 def main():
   eggs = int(input("Enter the total number of eggs: "))
   dozens = eggs // 12
-  remainer = eggs % 12
+  remainder = eggs % 12
   price = 0.0
   cost = 0.0
 
@@ -14,11 +14,10 @@ def main():
   elif dozens >= 11:
     price = 0.35
   else:
-    print("Invalid number of copies.")
+    remainder * (1.0/12.0 * price)
 
   cost = price * dozens
-  print("Price per dozen is $" + str(price))
-  print("Total cost is $" + str(round(cost, 2)))
+  print("The bill is equal to $" + str(round(cost, 2)))
   pass
 
 
