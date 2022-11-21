@@ -14,11 +14,11 @@ class Shape:
 
   def getPerim(self):
     return self.perim
-    
+
 
 def main():
-  len = int(input("Enter lengh: "))
-  wid = int(int("Enter width: "))
+  len = int(input("Enter length: "))
+  wid = int(input("Enter width: "))
   rectangle = Shape(len, wid)
   rectangle.calc()
   area = rectangle.getArea()
